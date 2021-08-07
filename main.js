@@ -15,7 +15,7 @@ document.getElementById("display_name_with_commas").innerHTML=display_array;
 document.getElementById("submit_button").style.display="none";
 document.getElementById("sort_button").style.display="inline-block";
 var remove_commas=display_array.join(" ");
-document.getElementById("diplay_name_without_commas").innerHTML=remove_commas;
+document.getElementById("display_name_without_commas").innerHTML=remove_commas;
 }
 function sorting(){
     student_array.sort();
@@ -26,5 +26,5 @@ function sorting(){
 
    }
 var remove_commas=display_array.join(" ");
-document.getElementById("diplay_name_without_commas").innerHTML=remove_commas;
+document.getElementById("display_name_without_commas").innerHTML=remove_commas;
 }
